@@ -1,0 +1,43 @@
+.main{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs{
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+
+.tabs > button {
+  font-size: 16px;
+  font-weight: bold;
+  width: 33.3%;
+  height: 40px;
+  background-color: bisque;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.tabs > button:hover {
+  background-color: rgb(168, 150, 128);
+  cursor: pointer;
+}

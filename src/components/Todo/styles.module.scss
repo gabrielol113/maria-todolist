@@ -1,0 +1,70 @@
+.li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(172, 172, 154);
+    color: #000;
+    font-size: 32px;
+}
+
+.licompleted{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(7, 248, 79);
+    color: #000;
+    font-size: 32px;
+}
+
+.liNotCompleted{
+    padding-top: 5px;
+    padding-bottom: 5px;    
+    padding-right: 5px;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(172, 172, 154);
+    color: #000;
+    font-size: 32px;
+}
+
+.licompleted > button , .liNotCompleted > button{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(175, 14, 14);
+}
+
+.licompleted >button , .liNotCompleted  > button:hover{
+    cursor: pointer;
+    background-color: rgba(175, 14, 14, 0.589);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+
+.textCompleted{
+    text-decoration: line-through;
+}
+
+.row > input, .rowCompleted > input {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
